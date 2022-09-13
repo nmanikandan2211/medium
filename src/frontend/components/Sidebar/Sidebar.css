@@ -41,7 +41,7 @@
 }
 
 .logout {
-  color: black;
+  color: rgb(248, 7, 7);
   gap: 5px;
   padding: 10px;
   cursor: pointer;
