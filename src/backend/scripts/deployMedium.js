@@ -2,7 +2,7 @@ const hre = require("hardhat");
 
 async function main() {
   const Medium = await hre.ethers.getContractFactory("Medium");
-  const medium = await Medium.deploy("Medium Blog", "BLOG", "1000000000000000000");
+  const medium = await Medium.deploy("Medium Blog", "BLOG", "10000000000000000");
 
   await medium.deployed();
 
